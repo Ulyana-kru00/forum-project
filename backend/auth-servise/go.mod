@@ -1,4 +1,4 @@
-module github.com/Mandarinka0707/newRepoGOODarhit
+module github.com/Ulyana-kru00/forum-project
 
 go 1.24.0
 

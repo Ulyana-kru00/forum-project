@@ -1,5 +1,5 @@
 // proto/go.mod
-module github.com/Mandarinka0707/newRepoGOODarhit/proto
+module github.com/Ulyana-kru00/forum-project/proto
 
 go 1.24
 

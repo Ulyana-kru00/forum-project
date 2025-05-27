@@ -1,4 +1,4 @@
-module github.com/Mandarinka0707/newRepoGOODarhit/chat
+module github.com/Ulyana-kru00/forum-project/chat
 
 go 1.24.0
 

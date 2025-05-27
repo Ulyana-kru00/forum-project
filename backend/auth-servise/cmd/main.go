@@ -8,15 +8,17 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/controller"
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/repository"
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/usecase"
-	"github.com/Mandarinka0707/newRepoGOODarhit/pkg/auth"
-	"github.com/Mandarinka0707/newRepoGOODarhit/pkg/logger"
+	"github.com/Ulyana-kru00/forum-project/internal/controller"
+	"github.com/Ulyana-kru00/forum-project/internal/repository"
+	"github.com/Ulyana-kru00/forum-project/internal/usecase"
+	"github.com/Ulyana-kru00/forum-project/pkg/auth"
+	"github.com/Ulyana-kru00/forum-project/pkg/logger"
 	"golang.org/x/crypto/bcrypt"
 
-	pb "backend.com/forum/proto"
-	_ "github.com/Mandarinka0707/newRepoGOODarhit/docs"
+	_ "github.com/Ulyana-kru00/forum-project/docs"
+	_ "github.com/lib/pq"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/reflection"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -24,11 +26,8 @@ import (
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 	"github.com/jmoiron/sqlx"
-	_ "github.com/lib/pq"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/reflection"
 )
 
 // @title           Auth Service API

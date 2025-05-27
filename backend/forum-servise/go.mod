@@ -1,4 +1,4 @@
-module github.com/Mandarinka0707/newRepoGOODarhit/forum-servise
+module github.com/Ulyana-kru00/forum-project/forum-servise
 
 go 1.24.0
 
