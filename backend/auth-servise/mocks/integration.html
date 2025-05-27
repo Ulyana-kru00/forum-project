@@ -144,7 +144,7 @@ var (
         grpcPort        = flag.String("grpc-port", ":50051", "gRPC server port")
         httpPort        = flag.String("http-port", ":8080", "HTTP server port")
         dbURL           = flag.String("db-url", "postgres://user:password@localhost:5432/database?sslmode=disable", "Database connection URL")
-        migrationsPath  = flag.String("migrations_path", "/Users/darinautalieva/Desktop/GOProject/backend/auth-servise/migrations", "path to migrations files")
+        migrationsPath  = flag.String("migrations_path", "./migrations", "path to migrations files")
         tokenSecret     = flag.String("token-secret", "secret", "JWT token secret")
         tokenExpiration = flag.Duration("token-expiration", 24*time.Hour, "JWT token expiration")
         logLevel        = flag.String("log-level", "info", "Logging level")

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/docs"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/internal/repository"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/internal/usecase"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/pkg/logger"
+	_ "github.com/Ulyana-kru00/forum-project/forum-servise/docs"
+"github.com/Ulyana-kru00/forum-project/forum-servise/internal/repository"
+"github.com/Ulyana-kru00/forum-project/forum-servise/internal/usecase"
+"github.com/Ulyana-kru00/forum-project/forum-servise/pkg/logger"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

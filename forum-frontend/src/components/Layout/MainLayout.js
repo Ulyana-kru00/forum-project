@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import Chat from '../Chat/Chat';
-import '/Users/darinautalieva/Desktop/GOProject/forum-frontend/src/components/MainLayout.css';
+import '../MainLayout.css';
 
 const MainLayout = ({ children }) => {
     return (
@@ -23,7 +24,7 @@ export default MainLayout;
 // import React from 'react';
 // import Navbar from './Navbar';
 // import Chat from '../Chat/Chat';
-// import '/Users/darinautalieva/Desktop/GOProject/forum-frontend/src/components/MainLayout.css';
+
 
 // const MainLayout = ({ children }) => {
 //     return (

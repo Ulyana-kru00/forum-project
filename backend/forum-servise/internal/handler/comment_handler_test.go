@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	pb "backend.com/forum/proto"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/internal/usecase"
+	"github.com/Ulyana-kru00/forum-project/forum-servise/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/forum-servise/internal/usecase"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

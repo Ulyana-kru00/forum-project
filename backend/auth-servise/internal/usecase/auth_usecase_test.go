@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/pkg/auth"
+	"github.com/Ulyana-kru00/forum-project/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/pkg/auth"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"

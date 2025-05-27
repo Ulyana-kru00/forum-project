@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import '/Users/darinautalieva/Desktop/GOProject/forum-frontend/src/components/MainLayout.css';
+import '../MainLayout.css';
 
 const Register = () => {
     const [username, setUsername] = useState('');
@@ -24,22 +24,22 @@ const Register = () => {
 
     return (
         <div className="auth-container">
-            <h2>Register</h2>
+            <h2>Регистрация</h2>
             <input
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Имя пользователя"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
             <input
                 type="password"
                 className="form-control"
-                placeholder="Password"
+                placeholder="Пароль"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <button className="btn btn-primary" onClick={handleRegister}>Register</button>
+            <button className="btn btn-primary" onClick={handleRegister}>Зарегистрироваться</button>
         </div>
     );
 };

@@ -3,7 +3,7 @@ package websocket
 import (
 	"net/http"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/entity"
 
 	"github.com/gorilla/websocket"
 )

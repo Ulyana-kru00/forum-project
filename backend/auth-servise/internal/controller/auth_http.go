@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/usecase"
+	"github.com/Ulyana-kru00/forum-project/internal/usecase"
 	"github.com/gin-gonic/gin"
 )
 

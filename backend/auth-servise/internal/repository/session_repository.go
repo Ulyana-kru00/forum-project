@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	domain "github.com/Mandarinka0707/newRepoGOODarhit/internal/entity"
+	domain "github.com/Ulyana-kru00/forum-project/internal/entity"
 	"github.com/jmoiron/sqlx"
 )
 

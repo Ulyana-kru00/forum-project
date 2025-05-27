@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"time"
 
+	pb "backend.com/forum/proto"
 	"github.com/Ulyana-kru00/forum-project/internal/controller"
 	"github.com/Ulyana-kru00/forum-project/internal/repository"
 	"github.com/Ulyana-kru00/forum-project/internal/usecase"

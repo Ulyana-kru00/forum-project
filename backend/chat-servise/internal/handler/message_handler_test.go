@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/entity"
-	myWeb "github.com/Mandarinka0707/newRepoGOODarhit/chat/pkg/websocket"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/entity"
+	myWeb "github.com/Ulyana-kru00/forum-project/chat/pkg/websocket"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"

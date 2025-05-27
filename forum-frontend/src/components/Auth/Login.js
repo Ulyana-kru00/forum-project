@@ -1,8 +1,7 @@
-
 import React, { useState } from 'react';
-import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import '/Users/darinautalieva/Desktop/GOProject/forum-frontend/src/components/MainLayout.css';
+import axios from 'axios';
+import '../MainLayout.css';
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -35,23 +34,23 @@ const Login = () => {
     };
 
     return (
-        <div className="auth-container"> {/* Добавьте класс для стилизации */}
-            <h2>Login</h2>
-            <input  //Заменил Input на input и добавил className
+        <div className="auth-container">
+            <h2>Вход</h2>
+            <input
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Имя пользователя"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
-            <input //Заменил Input на input и добавил className
+            <input
                 type="password"
                 className="form-control"
-                placeholder="Password"
+                placeholder="Пароль"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
             />
-            <button className="btn btn-primary" onClick={handleLogin}>Login</button>
+            <button className="btn btn-primary" onClick={handleLogin}>Войти</button>
         </div>
     );
 };

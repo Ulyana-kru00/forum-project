@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/usecase"
+	"github.com/Ulyana-kru00/forum-project/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/internal/usecase"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

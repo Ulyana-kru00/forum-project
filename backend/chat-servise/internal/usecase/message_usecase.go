@@ -2,8 +2,8 @@
 package usecase
 
 import (
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/repository"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/entity"
+"github.com/Ulyana-kru00/forum-project/chat/internal/repository"
 )
 
 type MessageUseCase interface {

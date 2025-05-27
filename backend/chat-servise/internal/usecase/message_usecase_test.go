@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/entity"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/internal/entity"
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/assert"
 )

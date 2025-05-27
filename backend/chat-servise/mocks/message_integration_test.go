@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/handler"
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/repository"
-	"github.com/Mandarinka0707/newRepoGOODarhit/chat/internal/usecase"
-	myWeb "github.com/Mandarinka0707/newRepoGOODarhit/chat/pkg/websocket"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/handler"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/repository"
+	"github.com/Ulyana-kru00/forum-project/chat/internal/usecase"
+	myWeb "github.com/Ulyana-kru00/forum-project/chat/pkg/websocket"
 
 	"os"
 	"strings"

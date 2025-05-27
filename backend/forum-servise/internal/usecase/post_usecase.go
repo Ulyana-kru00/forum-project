@@ -7,9 +7,9 @@ import (
 	"time"
 
 	pb "backend.com/forum/proto"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/internal/repository"
-	"github.com/Mandarinka0707/newRepoGOODarhit/forum-servise/pkg/logger"
+	"github.com/Ulyana-kru00/forum-project/forum-servise/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/forum-servise/internal/repository"
+	"github.com/Ulyana-kru00/forum-project/forum-servise/pkg/logger"
 )
 
 type PostUsecase struct {

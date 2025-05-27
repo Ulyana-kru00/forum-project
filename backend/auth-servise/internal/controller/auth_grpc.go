@@ -5,8 +5,8 @@ import (
 	"context"
 
 	pb "backend.com/forum/proto"
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/entity"
-	"github.com/Mandarinka0707/newRepoGOODarhit/internal/usecase"
+	"github.com/Ulyana-kru00/forum-project/internal/entity"
+	"github.com/Ulyana-kru00/forum-project/internal/usecase"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"

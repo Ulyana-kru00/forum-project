@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/Mandarinka0707/newRepoGOODarhit/internal/entity"
+import "github.com/Ulyana-kru00/forum-project/internal/entity"
 
 type RegisterResponse struct {
 	UserID int64
