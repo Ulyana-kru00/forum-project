@@ -50,10 +50,10 @@ import (
 // @in header
 // @name Authorization
 var (
-	grpcPort        = flag.String("grpc-port", ":50051", "gRPC server port")
+	grpcPort        = flag.String("grpc-port", ":50052", "gRPC server port")
 	httpPort        = flag.String("http-port", ":8080", "HTTP server port")
-	dbURL           = flag.String("db-url", "postgres://postgres:Password123@localhost:5432/forum_db?sslmode=disable", "Database connection URL")
-	migrationsPath  = flag.String("migrations_path", "./migrations", "path to migrations files")
+	dbURL           = flag.String("db-url", "postgres://postgres:Password123@localhost:5433/database?sslmode=disable", "Database connection URL")
+	migrationsPath  = flag.String("migrations_path", "../migrations", "path to migrations files")
 	tokenSecret     = flag.String("token-secret", "your_secret_key", "JWT token secret")
 	tokenExpiration = flag.Duration("token-expiration", 24*time.Hour, "JWT token expiration")
 	logLevel        = flag.String("log-level", "info", "Logging level")
@@ -123,7 +123,6 @@ func startGRPCServer(port string, controller *controller.AuthController, logger 
 	}
 }
 
-// main.go (исправленная часть)
 func startHTTPServer(port string, controller *controller.HTTPAuthController, logger *logger.Logger) {
 	router := gin.Default()
 

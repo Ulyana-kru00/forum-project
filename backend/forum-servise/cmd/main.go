@@ -33,7 +33,7 @@ func main() {
 	}
 
 	// Подключение к PostgreSQL
-	db, err := sqlx.Connect("postgres", "postgres://postgres:Password123@localhost:5432/forum_db?sslmode=disable")
+	db, err := sqlx.Connect("postgres", "postgres://postgres:Password123@localhost:5433/database?sslmode=disable")
 	if err != nil {
 		log.Error("Failed to connect to database", err)
 		os.Exit(1)
@@ -58,7 +58,7 @@ func main() {
 
 	// Подключение к Auth Service
 	authConn, err := grpc.Dial(
-		"localhost:50051",
+		"localhost:50052",
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 	)
 	if err != nil {
